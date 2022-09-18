@@ -8,9 +8,9 @@ When you click "connect", it shows a connection dialog and makes dial-up noises.
 
 ###### Idea what to use for
 
-As a joke, you could i.e. the application, which disconnects you from the internet. Then open chrome and show a friend that your internet is not working.
+As a joke, you could i.e. start the application, which disconnects you from the internet. Then open chrome and show a friend that your internet is not working.
 
-Say, "Oh, I forgot to dial in." and switch back to the app. Then click connect and after it has "connected" show that you're not connected to the famous world wide web.
+Say, "Oh, I forgot to dial in." and switch back to the app. Then click connect and after it has "connected" show that you're now connected to the famous world wide web.
 
 ## How to get it running
 
