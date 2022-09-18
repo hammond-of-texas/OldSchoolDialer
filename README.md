@@ -22,8 +22,8 @@ If you want to download the source code, use `git clone https://github.com/hammo
 
 ## How it looks like
 
-![Main screen](https://fkupferschmidoutlook-my.sharepoint.com/:i:/g/personal/fkupferschmid_kupferschmid_tech/ESP6sMiKO-ZHkg9HbrvCNOIBhOPy1GZp1fR5KLqF1ZCWfQ?e=gdEwHU)
-![Connection](https://fkupferschmidoutlook-my.sharepoint.com/:i:/g/personal/fkupferschmid_kupferschmid_tech/EShnF8WXxv9KhHaP0qTCGvMBu6CS9OLI-vYW4zCa704POA?e=hqS7tC)
+![Main screen](https://github.com/hammond-of-texas/OldSchoolDialer/blob/master/OldSchoolDialer/Resources/dialer1.png)
+![Connection](https://github.com/hammond-of-texas/OldSchoolDialer/blob/master/OldSchoolDialer/Resources/dialer2.png)
 
 ###### Copyright
 
