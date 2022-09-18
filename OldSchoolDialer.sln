@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32630.192
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OldSchoolDialer", "OldSchoolDialer\OldSchoolDialer.csproj", "{ADECCD4A-C759-4D01-ABA9-89505DB83398}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ADECCD4A-C759-4D01-ABA9-89505DB83398}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADECCD4A-C759-4D01-ABA9-89505DB83398}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADECCD4A-C759-4D01-ABA9-89505DB83398}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ADECCD4A-C759-4D01-ABA9-89505DB83398}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BA66FD4D-BB97-427E-B73A-94834C28655D}
+	EndGlobalSection
+EndGlobal
