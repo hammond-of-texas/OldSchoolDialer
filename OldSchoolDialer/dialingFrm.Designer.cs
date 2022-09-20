@@ -89,6 +89,7 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Connecting to SuperstarISP";
             this.TopMost = true;
+            this.Load += new System.EventHandler(this.dialingFrm_Load);
             ((System.ComponentModel.ISupportInitialize)(this.logoPic)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

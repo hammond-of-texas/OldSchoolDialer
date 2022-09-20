@@ -231,10 +231,8 @@
             this.Controls.Add(this.logoPic);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
-            this.MinimizeBox = false;
             this.Name = "mainForm";
             this.Text = "Connect to";
-            this.TopMost = true;
             this.Load += new System.EventHandler(this.mainForm_Load);
             ((System.ComponentModel.ISupportInitialize)(this.logoPic)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dividerImg)).EndInit();

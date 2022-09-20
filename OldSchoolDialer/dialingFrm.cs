@@ -42,7 +42,16 @@ namespace OldSchoolDialer
             timer1.Enabled = false;
             PlaySound();
             Connector.ConnectInternet();
-            Environment.Exit(0);
+            Thread.Sleep(2000);
+            Connector.ThrottleInternet();
+            var form = new connectedFrm();
+            form.Show();
+            Hide();
+        }
+
+        private void dialingFrm_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

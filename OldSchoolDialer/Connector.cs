@@ -32,9 +32,32 @@ namespace OldSchoolDialer
             startInfo.Arguments = "/renew";
             process.StartInfo = startInfo;
             process.Start();
-
-
         }
 
+        public static void ThrottleInternet()
+        {
+            System.Diagnostics.Process process = new System.Diagnostics.Process();
+            System.Diagnostics.ProcessStartInfo startInfo = new System.Diagnostics.ProcessStartInfo();
+            startInfo.WindowStyle = System.Diagnostics.ProcessWindowStyle.Hidden;
+            startInfo.CreateNoWindow = true;
+            startInfo.UseShellExecute = false;
+            startInfo.FileName = "powershell.exe";
+            startInfo.Arguments = @".\Resources\throttle.ps1";
+            process.StartInfo = startInfo;
+            process.Start();
+        }
+
+        public static void UnthrottleInternet()
+        {
+            System.Diagnostics.Process process = new System.Diagnostics.Process();
+            System.Diagnostics.ProcessStartInfo startInfo = new System.Diagnostics.ProcessStartInfo();
+            startInfo.WindowStyle = System.Diagnostics.ProcessWindowStyle.Hidden;
+            startInfo.CreateNoWindow = true;
+            startInfo.UseShellExecute = false;
+            startInfo.FileName = "powershell.exe";
+            startInfo.Arguments = @".\Resources\unthrottle.ps1";
+            process.StartInfo = startInfo;
+            process.Start();
+        }
     }
 }
