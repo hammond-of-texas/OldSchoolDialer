@@ -4,7 +4,7 @@
 
 When you start the application, it disconnects the internet and shows a dial-up dialog.
 
-When you click "connect", it shows a connection dialog and makes dial-up noises. After that, it re-connects to the internet.
+When you click "connect", it shows a connection dialog and makes dial-up noises. After that, it re-connects to the internet. But it throttles the bandwith to 128 KBit/s until the application is closed.
 
 ###### Idea what to use for
 
